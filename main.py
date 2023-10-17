@@ -65,7 +65,7 @@ def custom_matrix(m:int, n:int):
     n (int): ilość kolumn macierzy  
     
     Returns:
-    np.ndarray: macierz zgodna z opisem z zadania 7.
+    np.ndarray: macierz zgodna z opisem z zadania  7.
     """
     if m<0 or n<0 or type(n)!=int or type(m)!=int:
         return None
